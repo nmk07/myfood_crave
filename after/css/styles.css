@@ -12,7 +12,7 @@ body{
 }
 
 #logo-img{
-    background: url('/images/restaurant-logo_medium.png') no-repeat;
+    background: url('../../images/restaurant-logo_medium.png') no-repeat;
     width: 100px;
     height: 100px;
     margin: 10px 15px 10px 0;
@@ -147,15 +147,15 @@ body{
     box-shadow: 0 1px 5px 1px #cccccc;
 }
 #recipe-snaps{
-    background: url(/images/recipe-snaps.jpg) no-repeat;
+    background: url(../../images/recipe-snaps.jpg) no-repeat;
     background-position: center;
 }
 #specials{
-    background: url(/images/specials.jpg) no-repeat;
+    background: url(../../images/specials.jpg) no-repeat;
     background-position: center;
 }
 #recipe-videos{
-    background: url(/images/recipe-videos.jpg) no-repeat;
+    background: url(../../images/recipe-videos.jpg) no-repeat;
     background-position: center;
 }
 #recipe-snaps span, #specials span, #recipe-videos span{
@@ -303,7 +303,7 @@ p.menu-item-details-landscape{
 /* large devices only */
 @media(min-width: 1200px){
     .container .jumbotron{
-        background: url(/images/jumbotron_1200.jpg) no-repeat;
+        background: url(../../images/jumbotron_1200.jpg) no-repeat;
         height: 675px;
     }
 }
@@ -312,7 +312,7 @@ p.menu-item-details-landscape{
 @media(min-width: 992px) and (max-width: 1199px){
     /* Header */
     #logo-img{
-        background: url("/images/restaurant-logo_medium.png") no-repeat;
+        background: url("../../images/restaurant-logo_medium.png") no-repeat;
         width: 100px;
         height: 100px;
         margin: 5px 5px 5px 0;
@@ -320,7 +320,7 @@ p.menu-item-details-landscape{
     /* End Header */
     /* Home page */
     .container .jumbotron{
-        background: url(/images/jumbotron_992.jpg) no-repeat;
+        background: url(../../images/jumbotron_992.jpg) no-repeat;
         height: 558px;
     }
     /* End Home page */
@@ -330,7 +330,7 @@ p.menu-item-details-landscape{
 @media(min-width: 768px) and (max-width: 991px){
     /* home page */
     .container .jumbotron{
-        background: url(/images/jumbotron_768.jpg) no-repeat;
+        background: url(../../images/jumbotron_768.jpg) no-repeat;
         height: 432px;
     }
     /* End Home page */
